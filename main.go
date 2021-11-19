@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/h1ght1me/go-multicall/contract"
+	"github.com/h1ght1me/go-multicall/erc20"
+	"github.com/h1ght1me/go-multicall/multicall"
 	"math/big"
-	"multicallETH/contract"
-	"multicallETH/erc20"
-	"multicallETH/multicall"
 	"os"
 )
 
